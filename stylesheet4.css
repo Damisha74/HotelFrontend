@@ -1,0 +1,129 @@
+#container1 {
+  background-color: black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#img1 {
+  float: right;
+  margin-right: 100px;
+  border-radius: 50%;
+}
+
+#header {
+  font-size: 25px;
+  text-align: center;
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+  background-color: black;
+  float: left;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#nav ul li {
+  display: inline;
+}
+
+#nav li a {
+  display: block;
+  float: left;
+  padding: 10px 145px 10px 145px;
+  color: white;
+  text-decoration: none;
+  border-right: 2px solid gray;
+}
+
+#nav li a:hover {
+  background-color: gray;
+}
+
+#img2 {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#c1 {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 900px;
+}
+
+#name {
+  padding: 10px;
+  width: 300px;
+}
+
+#c2 {
+  margin-left: 20px;
+}
+
+#c3 {
+  margin-left: 20px;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("contact-us-image.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 65px;
+  margin-bottom: 50px;
+}
+
+.container3 {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text],
+input[type=testarea] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=textarea]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
